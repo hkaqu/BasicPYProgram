@@ -1,0 +1,15 @@
+#Check if entered name is Palindrome or not
+name=str(input("Enter a name: "))
+m=reversed(name)
+if list(name)==list(m):
+    print("Entered name is palindrome")
+else:
+    print("Entered name is not palindrome")
+    
+Ouput 1:
+Enter a name: hannah
+Entered name is palindrome
+
+Output 2:
+Enter a name: hanna
+Entered name is not palindrome
