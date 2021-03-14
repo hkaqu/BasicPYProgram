@@ -1,0 +1,18 @@
+#Printimg a number triangle
+n=int(input("Enter ur number: "))
+m=1
+for i in range (0,n):
+    for j in range (0,i+1):
+        print(m, end="")
+    print("\r")
+    m = m+1
+    
+Output:
+
+Enter ur number: 6
+1
+22
+333
+4444
+55555
+666666
